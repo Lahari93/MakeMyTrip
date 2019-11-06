@@ -1,0 +1,39 @@
+package mmtpractice;
+
+public class OsPath {
+
+	
+	public static String getPath(String browser) {
+		
+		String OS=System.getProperty("os.name");
+		String driverpath="";
+		
+		if (OS.toUpperCase().contains("WINDOWS")) {
+			
+			if(browser.equalsIgnoreCase("Chrome")) {
+			
+			driverpath=System.getProperty(("user.dir")+"\\src\\main\\resources\\chromedriver.exe");
+			}
+			
+			else if(browser.equalsIgnoreCase("FireFox")) {
+				driverpath=System.getProperty(("user.dir")+"\\src\\main\\resources\\geckodriver.exe");
+			}
+				
+				 
+			}else if(OS.toUpperCase().contains("Mac")) {
+				
+				if(browser.equalsIgnoreCase("Chrome")) {
+				
+				driverpath=System.getProperty(("user.dir")+"\\src\\main\\resources\\chromedriver");
+				}
+				
+				else if(browser.equalsIgnoreCase("FireFox")) {
+					driverpath=System.getProperty(("user.dir")+"\\src\\main\\resources\\geckodriver");
+				}
+		
+				return driverpath;
+		}
+		
+		
+	}
+}

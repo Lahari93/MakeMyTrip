@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.testng.annotations.BeforeSuite"/>
+<fullyQualifiedTypeName name="org.testng.annotations.AfterSuite"/>
+<fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+<fullyQualifiedTypeName name="java.util.Properties"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="mmt.ReadPropertyFile.ReadPropertyFile"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeOptions"/>
+</qualifiedTypeNameHistroy>

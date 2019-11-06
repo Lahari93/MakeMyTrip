@@ -1,0 +1,25 @@
+package mmt.ReadPropertyFile;
+
+import java.io.FileInputStream;
+import java.util.Properties;
+
+public class ReadPropertyFile {
+
+	
+	public static String getProperty(String propertyName){
+		
+		Properties property =new Properties();
+	
+	
+	FileInputStream file =
+			new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\resources\\TestRunDetails.properties");
+	        property.load(file);
+	        String returnProperty=property.getProperty(propertyName);
+	        
+	        
+	        return returnProperty;
+	
+	
+	
+}
+}

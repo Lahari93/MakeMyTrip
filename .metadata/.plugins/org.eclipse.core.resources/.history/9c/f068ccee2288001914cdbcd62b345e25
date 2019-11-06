@@ -1,0 +1,9 @@
+package mmtpractice;
+
+public class OsPath {
+
+	
+	public static String getPath(String browser) {
+		
+	}
+}

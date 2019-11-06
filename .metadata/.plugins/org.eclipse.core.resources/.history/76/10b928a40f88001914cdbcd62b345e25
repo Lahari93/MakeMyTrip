@@ -1,0 +1,49 @@
+package mmt.ReadPropertyFile;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+public class ReadPropertyFile {
+
+	
+	public static String getProperty(String propertyName){
+		
+		Properties property =new Properties();
+		
+		//String returnProperty="";
+	    FileInputStream file;
+	try {
+		file = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\resources\\TestRunDetails.properties");
+		try {
+			property.load(file);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		String returnProperty=property.getProperty(propertyName);
+		
+		if (returnProperty==null) {
+			
+		}
+	} catch (FileNotFoundException e1) {
+		// TODO Auto-generated catch block
+		e1.printStackTrace();
+	}
+	        
+
+
+
+				
+				
+				
+			
+	        
+	        
+	        return returnProperty;
+	
+	
+	
+}
+}

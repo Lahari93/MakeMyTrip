@@ -1,0 +1,20 @@
+package mmtpractice;
+
+public class OsPath {
+
+	
+	public static String getPath(String browser) {
+		
+		String OS=System.getProperty("os.name");
+		String browserpath="";
+		
+		if (OS.toUpperCase().contains("WINDOWS")) {
+			
+			
+			
+			
+		}
+		
+		
+	}
+}

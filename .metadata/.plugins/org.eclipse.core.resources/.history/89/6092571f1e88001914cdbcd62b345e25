@@ -1,0 +1,22 @@
+package mmtpractice;
+
+import org.openqa.selenium.WebDriver;
+
+import mmt.ReadPropertyFile.ReadPropertyFile;
+
+public class Base {
+
+	public static WebDriver driver =null;
+	
+	
+	private Base() {
+		
+		ReadPropertyFile.getProperty("Browser")
+		
+	}
+		
+	}
+	
+	
+	
+	

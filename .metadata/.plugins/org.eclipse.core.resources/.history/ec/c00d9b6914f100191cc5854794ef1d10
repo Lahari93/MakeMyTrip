@@ -1,0 +1,2 @@
+Login=//a[@class='open']
+Alert=//button[text()='Later']

@@ -1,0 +1,15 @@
+package mmt.ReadPropertyFile;
+
+import java.util.Properties;
+
+public class ReadPropertyFile {
+
+	
+	
+	
+	Properties property =new Properties();
+	new File
+	
+	
+	
+}

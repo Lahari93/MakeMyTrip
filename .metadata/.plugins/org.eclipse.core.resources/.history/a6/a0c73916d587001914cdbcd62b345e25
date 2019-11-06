@@ -1,0 +1,26 @@
+package mmt.practice;
+
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
+
+public class TestSetUp {
+
+@BeforeSuite
+public static void setUp(){
+	
+}
+
+@Test
+public static void setUp(){
+	
+}
+
+@AfterSuite
+public static void tearDown() {
+	
+	
+}
+
+
+	
+}

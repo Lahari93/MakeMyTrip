@@ -1,0 +1,24 @@
+package mmtpractice;
+
+import org.openqa.selenium.WebDriver;
+
+import mmt.ReadPropertyFile.ReadPropertyFile;
+
+public class Base {
+
+	public static WebDriver driver =null;
+	
+	
+	private Base() {
+		
+		String browser=ReadPropertyFile.getProperty("Browser");
+		String headless=ReadPropertyFile.getProperty("HeadlessMode");
+		String imageDisable=ReadPropertyFile.getProperty("DisableImage");
+		
+	}
+		
+	}
+	
+	
+	
+	

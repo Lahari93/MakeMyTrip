@@ -1,0 +1,5 @@
+Login=//a[@class='open']
+Alert=//button[text()='Later']
+Email=//input[@id='EmailID']
+password=//input[@id='LoginPassword']
+Signin=//input[@id='SignINAjx']

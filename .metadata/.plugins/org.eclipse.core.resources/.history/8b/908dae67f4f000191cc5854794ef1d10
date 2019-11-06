@@ -1,0 +1,31 @@
+package testcases;
+
+import org.openqa.selenium.By;
+import org.testng.annotations.Test;
+
+import base.Base;
+
+public class LoginTest extends Base {
+	
+	
+    @Test
+	public void login() throws InterruptedException {
+    	
+    	
+    	driver.findElement(By.xpath("Alert")).click();
+    	
+    	//driver.switchTo().alert().dismiss();
+    	
+    	driver.findElement(By.xpath(OR.getProperty("Login"))).click();
+    	
+    	
+    	
+    	
+    	
+    	
+    
+		
+	}
+	
+	
+}
